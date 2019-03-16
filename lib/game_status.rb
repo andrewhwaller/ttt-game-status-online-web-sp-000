@@ -26,4 +26,5 @@ end
 def full?(board)
   all_played = [0..8].all? do |spaces|
     (board[index].nil? || board[index] == " ")
+  end
 end
