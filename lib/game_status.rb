@@ -22,3 +22,8 @@ def won?(board)
     position_taken?(board, combo[0])
   end
 end
+
+def full?(board)
+  all_played = [0..8].all? do |spaces|
+    (board[index].nil? || board[index] == " ")
+end
