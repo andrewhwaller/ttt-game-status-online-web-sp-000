@@ -32,6 +32,6 @@ def draw?(board)
   elsif !won? && !full?
     false
   else won?
-    false    
+    false
   end
 end
